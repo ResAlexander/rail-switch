@@ -1,10 +1,10 @@
-package com.resalexanderccho.railswitch;
+package io.github.resalexander.railswitch;
 
-import com.resalexanderccho.railswitch.block.LeftSwitchRailBlock;
-import com.resalexanderccho.railswitch.block.RightSwitchRailBlock;
-import com.resalexanderccho.railswitch.block.SwitchRailItem;
-import com.resalexanderccho.railswitch.config.RailSwitchConfig;
-import com.resalexanderccho.railswitch.logic.SwitchDispatcher;
+import io.github.resalexander.railswitch.block.LeftSwitchRailBlock;
+import io.github.resalexander.railswitch.block.RightSwitchRailBlock;
+import io.github.resalexander.railswitch.block.SwitchRailItem;
+import io.github.resalexander.railswitch.config.RailSwitchConfig;
+import io.github.resalexander.railswitch.logic.SwitchDispatcher;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;

@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.resalexanderccho.railswitch.RailSwitchMod"
+      "io.github.resalexander.railswitch.RailSwitchMod"
     ]
   },
   "contact": {

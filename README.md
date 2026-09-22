@@ -95,11 +95,11 @@ The mod adds blocks, which is *content* — a client without it will see broken 
 ```text
 <profile>/mods/            (client)
 ├── fabric-api-*.jar
-└── rail-switch-1.2.0-fabric-26.2.jar
+└── rail-switch-1.2.1-fabric-26.2.jar
 
 <server>/mods/             (server, same file)
 ├── fabric-api-*.jar
-└── rail-switch-1.2.0-fabric-26.2.jar
+└── rail-switch-1.2.1-fabric-26.2.jar
 ```
 
 * Single player: drop it into your client `mods/` — the integrated server loads it too.

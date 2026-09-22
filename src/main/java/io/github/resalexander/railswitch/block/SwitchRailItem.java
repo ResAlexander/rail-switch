@@ -1,4 +1,4 @@
-package com.resalexanderccho.railswitch.block;
+package io.github.resalexander.railswitch.block;
 
 import java.util.function.Consumer;
 import net.minecraft.ChatFormatting;

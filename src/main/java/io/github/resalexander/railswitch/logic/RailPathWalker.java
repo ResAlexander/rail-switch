@@ -1,4 +1,4 @@
-package com.resalexanderccho.railswitch.logic;
+package io.github.resalexander.railswitch.logic;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;

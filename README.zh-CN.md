@@ -95,11 +95,11 @@
 ```text
 <客户端配置目录>/mods/
 ├── fabric-api-*.jar
-└── rail-switch-1.2.0-fabric-26.2.jar
+└── rail-switch-1.2.1-fabric-26.2.jar
 
 <服务端>/mods/              （同一个文件）
 ├── fabric-api-*.jar
-└── rail-switch-1.2.0-fabric-26.2.jar
+└── rail-switch-1.2.1-fabric-26.2.jar
 ```
 
 * 单人游戏：放进客户端 `mods/` 即可（集成服务器同时加载）。

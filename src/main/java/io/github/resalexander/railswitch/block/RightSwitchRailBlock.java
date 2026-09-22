@@ -1,4 +1,4 @@
-package com.resalexanderccho.railswitch.block;
+package io.github.resalexander.railswitch.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.world.level.block.BaseRailBlock;

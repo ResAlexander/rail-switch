@@ -2,6 +2,16 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。发布到 Modrinth / CurseForge / GitHub Release 时，本文件对应版本的段落直接作为 changelog。
 
+## 1.2.1
+
+**内部命名空间更正**。行为与 1.2.0 完全一致，没有任何逻辑改动。
+
+### 变更
+- Java 包名 `com.resalexanderccho.railswitch` → **`io.github.resalexander.railswitch`**：改用 GitHub 登录名作为命名空间（原 `resalexanderccho` 是已弃用的旧名）。只影响源码目录与 jar 内的 class 名，**不影响 mod id、方块注册 id、存档、命令与配置**。
+- README 安装示例中的 jar 文件名同步为 1.2.1。
+
+（1.2.0 是首个公开发布版本，其内容见下一节。）
+
 ## 1.2.0
 
 **铁轨样式改版 + 合规自检**。行为与 1.0.1 完全一致，改动只在贴图与工程侧。

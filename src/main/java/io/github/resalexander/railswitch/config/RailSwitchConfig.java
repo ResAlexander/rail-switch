@@ -1,8 +1,8 @@
-package com.resalexanderccho.railswitch.config;
+package io.github.resalexander.railswitch.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.resalexanderccho.railswitch.RailSwitchMod;
+import io.github.resalexander.railswitch.RailSwitchMod;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import net.fabricmc.loader.api.FabricLoader;

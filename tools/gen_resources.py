@@ -261,7 +261,7 @@ def main() -> None:
         "license": "PolyForm-Noncommercial-1.0.0",
         "icon": "assets/rail_switch/icon.png",
         "environment": "*",
-        "entrypoints": {"main": ["com.resalexanderccho.railswitch.RailSwitchMod"]},
+        "entrypoints": {"main": ["io.github.resalexander.railswitch.RailSwitchMod"]},
         "contact": {
             "homepage": "https://github.com/ResAlexander/rail-switch",
             "sources": "https://github.com/ResAlexander/rail-switch",

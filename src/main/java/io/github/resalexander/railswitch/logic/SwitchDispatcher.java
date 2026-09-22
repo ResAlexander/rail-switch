@@ -1,8 +1,8 @@
-package com.resalexanderccho.railswitch.logic;
+package io.github.resalexander.railswitch.logic;
 
-import com.resalexanderccho.railswitch.RailSwitchMod;
-import com.resalexanderccho.railswitch.block.AbstractSwitchRailBlock;
-import com.resalexanderccho.railswitch.config.RailSwitchConfig;
+import io.github.resalexander.railswitch.RailSwitchMod;
+import io.github.resalexander.railswitch.block.AbstractSwitchRailBlock;
+import io.github.resalexander.railswitch.config.RailSwitchConfig;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.resalexanderccho.railswitch.block;
+package io.github.resalexander.railswitch.block;
 
-import com.resalexanderccho.railswitch.logic.SwitchDispatcher;
-import com.resalexanderccho.railswitch.logic.SwitchGeometry;
+import io.github.resalexander.railswitch.logic.SwitchDispatcher;
+import io.github.resalexander.railswitch.logic.SwitchGeometry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseRailBlock;

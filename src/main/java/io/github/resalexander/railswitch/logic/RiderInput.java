@@ -1,4 +1,4 @@
-package com.resalexanderccho.railswitch.logic;
+package io.github.resalexander.railswitch.logic;
 
 import java.util.Collection;
 import java.util.HashMap;
