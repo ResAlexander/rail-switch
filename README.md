@@ -3,6 +3,7 @@
   <h1>Rail Switch 🚂</h1>
   <h3>Ride and switch · Vanilla rails just connect · No mixins · 220 bps tested</h3>
   <p>
+    <a href="https://github.com/ResAlexander/rail-switch/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ResAlexander/rail-switch?style=flat-square&amp;label=release"></a>
     <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-26.2-3C8527?style=flat-square">
     <img alt="Loader" src="https://img.shields.io/badge/Loader-Fabric-DBB69B?style=flat-square">
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-1a5fb4?style=flat-square"></a>
@@ -86,6 +87,8 @@ Six options in `config/rail_switch.json`: look-ahead, key memory, lever sound, l
 | Sides | **client and server both need the mod** |
 
 ### Install
+
+**Download** the jar from the [latest release](https://github.com/ResAlexander/rail-switch/releases/latest) — or build it yourself, see [DEVELOPING.md](DEVELOPING.md).
 
 The mod adds blocks, which is *content* — a client without it will see broken blocks. Install the **same version** on both sides:
 

@@ -3,6 +3,7 @@
   <h1>Rail Switch 道岔 🚂</h1>
   <h3>按键扳岔 · 原版铁轨自动对接 · 无 mixin · 220 bps 实测通过</h3>
   <p>
+    <a href="https://github.com/ResAlexander/rail-switch/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ResAlexander/rail-switch?style=flat-square&amp;label=release"></a>
     <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-26.2-3C8527?style=flat-square">
     <img alt="Loader" src="https://img.shields.io/badge/Loader-Fabric-DBB69B?style=flat-square">
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-1a5fb4?style=flat-square"></a>
@@ -86,6 +87,8 @@
 | 安装端 | **客户端与服务端都要装** |
 
 ### 安装
+
+**下载**：[最新 Release](https://github.com/ResAlexander/rail-switch/releases/latest) 里的 jar；或自行构建，见 [DEVELOPING.md](DEVELOPING.md)。
 
 模组新增了方块，属于**内容**——客户端缺它就会看到错误方块。两端必须装**同一版本**：
 
