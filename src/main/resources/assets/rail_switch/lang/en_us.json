@@ -1,0 +1,6 @@
+{
+  "itemGroup.rail_switch": "Rail Switch",
+  "block.rail_switch.left_switch_rail": "Left Switch Rail",
+  "block.rail_switch.right_switch_rail": "Right Switch Rail",
+  "item.rail_switch.switch_rail.tooltip": "Works as a switch only when rails connect on three sides. A rider presses Left/Right (default A/D) to set it."
+}

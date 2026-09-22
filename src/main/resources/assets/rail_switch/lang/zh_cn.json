@@ -1,0 +1,6 @@
+{
+  "itemGroup.rail_switch": "道岔",
+  "block.rail_switch.left_switch_rail": "左开道岔",
+  "block.rail_switch.right_switch_rail": "右开道岔",
+  "item.rail_switch.switch_rail.tooltip": "需要三个方向接轨才能当道岔用。骑手按「向左 / 向右」（默认 A / D）扳岔。"
+}

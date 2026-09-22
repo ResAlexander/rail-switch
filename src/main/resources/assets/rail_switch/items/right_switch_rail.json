@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "rail_switch:item/right_switch_rail"
+  }
+}

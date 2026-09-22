@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rail_switch:left_switch_rail",
+    "rail_switch:right_switch_rail"
+  ]
+}

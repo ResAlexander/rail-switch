@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/rail",
+    "layer1": "rail_switch:item/switch_marker_left"
+  }
+}
