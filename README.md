@@ -18,7 +18,9 @@
 
 **Rail Switch** adds two Y-shaped switch rails to Minecraft Java 26.2 (Fabric). Ride a minecart and hold **Left** or **Right** (default `A` / `D`) before the switch and the cart takes that branch; with no input the cart follows wherever the points currently are. Vanilla rails recognise the block and connect to it automatically.
 
-The mod ships **no mixins**: it never patches the game's own minecart code. It only writes the rail's block state and reads the vanilla player-input packet, so there is no code surface that could conflict with other mods — nothing to worry about on the compatibility front.
+The mod ships **no mixins** and does not overwrite vanilla minecart methods. It updates switch-rail block states and reads vanilla player-input data; its behavior depends on Minecraft's new minecart physics and rail-state handling. Avoiding mixins removes one common source of conflicts, but does not guarantee compatibility with every rail or physics mod. Compatibility has been tested alongside [highspeed-rail](https://modrinth.com/mod/highspeed-rail) at **220 bps**; other combinations are unverified.  
+
+**Feedback and support:** Sign in to GitHub before creating an [issue](https://github.com/ResAlexander/rail-switch/issues). When signed out, GitHub may show “Issue creation is restricted in this repository.” Commercial-license inquiries can also use the email address on the author's GitHub profile.  
 
 ## 🌟 Key Features
 
@@ -44,7 +46,7 @@ The block passes vanilla's `isRail` checks and enters the `minecraft:rails` tag,
 
 ### 🧩 No mixins
 
-No patch to `AbstractMinecart` or `NewMinecartBehavior`. Switching is pure block-state work plus reading the vanilla player-input packet, so it stacks with physics mods instead of fighting them.
+No patch to `AbstractMinecart` or `NewMinecartBehavior`. Switching changes the rail block state and lets vanilla's new physics handle the turn; compatibility with other physics mods depends on each mod and should be tested.  
 
 </td>
 <td width="50%" valign="top">

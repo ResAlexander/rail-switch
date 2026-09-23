@@ -18,7 +18,9 @@
 
 **Rail Switch** 为 Minecraft Java 26.2（Fabric）加入两种 Y 型道岔方块。骑矿车、在道岔前按住**向左**或**向右**（默认 `A` / `D`），矿车就岔向对应股道；没有输入时，矿车按道岔**当时**的位置通过。道岔方块满足原版的 `isRail` 判定，普通铁轨会自动与它对接。
 
-模组**不含任何 mixin**：它不改写游戏自己的矿车代码，只写方块的形状状态、读取原版的玩家输入包。因此不存在与其它模组冲突的代码面，也不必担心兼容性。
+模组**不含任何 mixin**，也不覆盖原版矿车方法。它会更新道岔方块状态并读取原版玩家输入；其行为依赖 Minecraft 的新矿车物理和轨道状态处理。避免使用 mixin 减少了一类常见冲突来源，但不代表保证与所有轨道或物理模组兼容。目前已与 [highspeed-rail](https://modrinth.com/mod/highspeed-rail) 共存，并在 **220 bps** 下实测；其它组合尚未验证。  
+
+**反馈与联系：**提交 [Issue](https://github.com/ResAlexander/rail-switch/issues) 前请先登录 GitHub。未登录时，GitHub 可能显示“Issue creation is restricted in this repository”。商业授权咨询也可使用作者 GitHub 主页上列出的邮箱。  
 
 ## 🌟 主要特性
 
@@ -44,7 +46,7 @@
 
 ### 🧩 无 mixin
 
-不改写 `AbstractMinecart` / `NewMinecartBehavior`。拨岔纯粹是方块状态操作加读取原版玩家输入包，因此与物理模组叠加而不是打架。
+不覆盖 `AbstractMinecart` 或 `NewMinecartBehavior`。拨岔通过修改轨道方块状态完成，再由原版新物理处理转弯；与其它物理模组的兼容性取决于具体模组，建议实际测试。  
 
 </td>
 <td width="50%" valign="top">
