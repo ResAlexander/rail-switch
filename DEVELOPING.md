@@ -14,6 +14,14 @@ JAVA_HOME="<你的 JDK 25 路径>" ./gradlew build
 * 版本号在 `stonecutter.properties.toml` 的 `mod.version`。
 * `versions/` 是 stonecutter 的按版本工作区，`build/` 已在 `.gitignore` 中。
 
+## 持续集成  
+
+GitHub Actions 工作流 [`.github/workflows/build-and-validate.yml`](.github/workflows/build-and-validate.yml) 会在每次 push、pull request 和手动触发时运行。  
+
+CI 使用 Temurin JDK 25，执行 `./gradlew --no-daemon build` 与 `python3 tools/validate_resources.py`；本地可运行同样的命令复现。  
+
+CI 不运行 `tools/check_compliance.py`，因为该脚本需要本机安装的 Minecraft 原版资源；也不替代下文的游戏内实测清单。  
+
 ## tools 三个脚本
 
 | 脚本 | 作用 | 什么时候跑 |

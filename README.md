@@ -4,6 +4,7 @@
   <h3>Ride and switch · Vanilla rails just connect · No mixins · 220 bps tested</h3>
   <p>
     <a href="https://github.com/ResAlexander/rail-switch/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ResAlexander/rail-switch?style=flat-square&amp;label=release"></a>
+    <a href="https://github.com/ResAlexander/rail-switch/actions/workflows/build-and-validate.yml"><img alt="Build and validate" src="https://github.com/ResAlexander/rail-switch/actions/workflows/build-and-validate.yml/badge.svg"></a>  
     <img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-26.2-3C8527?style=flat-square">
     <img alt="Loader" src="https://img.shields.io/badge/Loader-Fabric-DBB69B?style=flat-square">
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-1a5fb4?style=flat-square"></a>
